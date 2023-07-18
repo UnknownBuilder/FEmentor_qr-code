@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.attribution {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.attribution p {
+
+    padding:3px;
+    display: block;
+}
+
+body{
+
+    background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+    
+    margin:auto;
+    width: 500px;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.wrapper {
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
